@@ -1,54 +1,28 @@
 package method;
 
-public class A  {
-	
-	
-	public static void AB()
-	{
-		System.out.println("I am static method");
-	}
-	
-	public void BC()
-	{
-		System.out.println("I am non static method");
-	}
-	
-	
-	
-	
-	
-	
-	
+public class A {
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 
-	  AB();
-	  
-	  A a= new A();
-	  a.BC();
-	  
-	 
-	  
-	  	
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-	}
+    public static void AB() {
+        System.out.println("I am static method");
+    }
 
-	private void N() {
-		// TODO Auto-generated method stub
-		
-	}
+    public void BC() {
+        System.out.println("I am non static method");
+    }
+
+
+    public static void main(String[] args) {AB();
+
+        A a = new A();
+        a.BC();
+
+
+    }
+
+    private void N() {
+        // TODO Auto-generated method stub
+
+    }
 
 }
